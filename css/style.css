@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');/*--- Paragraph Font --*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed'); /*--- Headings Font --*/
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+body{
+    background: #fff;
+    color: #555;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    line-height: 190%;
+    text-align: center;
+    text-transform:uppercase;
+}
+h3
+{
+    font-size: 190%;
+    padding: 5% 0;
+}
+h4
+{
+    font-size: 170%;
+    padding: 5% 0;
+
+}
+h5
+{
+    font-size:120%;
+    color: #959595;
+
+}
+img{
+    width: 100%;
+}
+header
+{
+   background: green;
+    height: 89px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    opacity: .9;
+    top: 2px;
+   
+}
+#header-inner
+{
+   margin: 0 auto;
+    max-width: 1200px;
+}
+#logo
+{
+    background: url(3827882.jpg);
+    float: left;
+    width: 146px;
+    height: 69px;
+    margin: 10px;
+    top: 0;
+}
+nav{
+    float: right;
+    padding: 35px 20px 0 0; 
+    top: 0;
+}
+#menu-icon
+{
+    background: url(img/icon.png) center;
+    width: 40px;
+    height: 34px;
+    display: hidden;
+    
+}
+
+ul
+{
+   list-style: none;
+}
+nav ul li{
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 10px;
+    float: left;
+    font-size: 120%;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+a:hover, .current 
+{
+    text-decoration: underline;
+}
+.slider{
+    margin-top: 90px;
+}
+.bx-controls{
+    display: none;
+}
+#inner-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.one-third{
+    width:29%;
+    float: left;
+    margin: 2%;
+}
+.circle{
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    background: none;
+border-radius: 50%;
+}
+.circle img{
+       height: 134px;
+    width: 215px;
+    margin: 0px -31px;
+}
+.one-third i{
+    color: #fff;
+    font-size: 555%;
+    padding: 20%;
+}
+p
+{
+    font-family: 'Droid Sans', sans-serif;
+    text-align: center;
+    text-transform: none;
+    font-size: 125%;
+    padding: 2%;
+}
+.clearfix{
+    clear: both;
+    padding: 2%
+}
+article{
+    float: left;
+    width: 50%;
+    padding: 4%;
+    
+}
+.circle-image{
+    border-radius: 70%;
+}
+aside{
+    float: right;
+    width: 35%;
+    padding: 2%;
+}
+aside h3{
+    text-decoration: underline
+}
+.one-third img{
+    padding-bottom: 2%;
+    
+}
+a{
+    text-decoration: none;
+}
+footer {
+    background: green;
+    overflow: hidden;
+    opacity: .9;
+    height: 272px;
+}
+#footer-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+footer .one-third{
+    width: 33%;
+    margin: 2% 0;
+    
+}
+footer h3{
+    color: #fff;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+}
+#footer-third{
+    border-right: 1px solid #959595;
+    max-height: 250px;
+    min-height: 250px;
+    
+}
+footer a{
+    color: #959595;
+    text-align: none;
+}
+.social li{
+    display: inline;
+}
+.social i{
+    font-size: 245%;
+    padding: 2% 6%;
+    color: #fff;
+}
+.social i:hover{
+    color: #f5f5f5;
+}
+h5 a:hover{
+    text-decoration: none;
+    color: #405508;
+    
+}
+.second{
+    border-top: 1px solid #4D4E50;
+    max-height: 50px;
+    padding: 1%;
+    opacity: .95;
+}
+.second p{
+    color: #fff;
+}
+ #footer-third-last img{
+            border-radius: 32%;
+    width: 56%;
+}
+#box {
+    height: 167px;
+    width: 585px;
+    background-color: #2D2D2D;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#main {
+    height: 278px;
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 45%;
+    left: 57%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+}
+#loginform,#signupform{
+    position: absolute;
+    top:50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+}
+#signupform{
+    top:45%;
+    left: 75%;
+    visibility: hidden;
+}
+#loginform h1,#signupform h1{
+    font-family: arial;
+    font-size: 25px;
+    color:green;
+}
+#loginform input,#signupform input{
+    height: 40px;
+    width: 300px;
+    border: 0px;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin: 5px;
+}
+#loginform button, #signupform button {
+    height: 35px;
+    width: 130px;
+    background-color: green;
+    font-family: monospace;
+    font-size: 16px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 8px;
+}
+#login_btn,#signup_btn{
+    height: 35px;
+    width: 120px;
+    background-color:transparent;
+    color:white;
+    border:1px solid white;
+    border-radius: 5px;
+    outline: none;
+    position: absolute;
+    left: 75%;
+    top:65%;
+    transform: translate(-50%,-50%);
+    transition: all .5s;
+}
+#signup_btn{
+    left: 25%;
+}
+#login_btn:hover,#signup_btn:hover{
+    background-color:white;
+    color:#2d2d2d;
+    cursor: pointer;
+}
+#login_msg, #signup_msg {
+    font-family: arial;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+#signup_msg{
+    left: 25%;
+}
+footer.second img {
+        height: 51px;
+    width: 114px;
+    float: left;
+    display: inline-block;
+    padding: 20px;
+    margin: -15px -7px;
+    text-align: center;
+}
+@media screen and (max-width: 768px){
+    
+    a:hover, .current 
+{
+    text-decoration: underline;
+}
+    #main {
+    height: 250px;
+    width: 344px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 44%;
+    left: 67%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+}
+    #box {
+    height: 199px;
+    width: 534px;
+    background-color: #2D2D2D;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+   #login_msg{
+    font-family: arial;
+    font-size: 16px;
+    color:white;
+    position: absolute;
+    top:35%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    }
+    #signup_msg{
+    font-family: arial;
+    font-size: 16px;
+    color:white;
+    position: absolute;
+    top:35%;
+    left: 23%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    }
+    #loginform, #signupform {
+    position: absolute;
+    top: 50%;
+    left: 67%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+    height: 232px;
+}
+    #signupform button {
+    height: 35px;
+    width: 130px;
+    background-color: green;
+    font-family: monospace;
+    font-size: 16px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-left: 8px;
+}
+    header{
+        position: absolute;
+    }
+    
+    #logo
+{
+    background: url(img/3827882.jpg);
+    float: left;
+    width: 146px;
+    height: 69px;
+    margin: 10px;
+    top: 0;
+}
+    #menu-icon{
+        display: inline-block;
+    }
+    nav:hover ul{
+        display: block;
+    }
+    nav ul, nav:active ul {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    background: #405508;
+    width: 45%;
+    padding: 18px;
+    right: 21px;
+    top: 70px;
+    border: 1px solid #fff;
+    border-radius: 4px 0 4px 4px;
+}
+    nav li{ 
+    text-align: center;
+    width: 100%;
+    }
+    .one-third{
+        width: 100%;
+        margin: 0;
+    }
+    .circle{
+        width: 100px;
+        height: 100px;
+    }
+    .one-third i{
+        font-size:360px; 
+    }
+    .one-third a{
+        text-decoration: none;
+    }
+    article{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    aside{
+        width:100%;
+    }
+    h4{
+      font-size: 140%;  
+    }
+    footer .one-third{
+        width: 100%;
+        margin: 0;
+    }
+    .social i{
+        font-size: 245%;
+    }
+    #footer-third{
+        min-height: 150px;
+        padding-bottom: 10%;
+        border-bottom: 1px solid #959595;
+    }
+    #footer-third-last{
+        margin-bottom: 15%;
+    }
+    
+     #footer-third-last img{
+            border-radius: 32%;
+    width: 56%;
+}
+    
+
+@media screen and (max-width: 478px){
+    #box{
+       height: 135px;
+    width: 354px;
+    font-size: 10px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: -86px;
+    margin-left: -2px;
+}
+#main {
+    height: 148px;
+    width: 150px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+}
+#loginform, #signupform {
+    position: absolute;
+    top: 78%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+}
+    
+#signupform {
+    top: 70%;
+    left: 75%;
+    visibility: hidden;
+}
+#loginform h1,#signupform h1{
+    font-family: arial;
+    font-size: 8px;
+    color:green;
+}
+#loginform input,#signupform input{
+    height: 10px;
+    width: 100px;
+    border: 0px;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin: 5px;
+}
+#loginform button, #signupform button {
+    height: 28px;
+    width: 77px;
+    background-color: green;
+    font-family: monospace;
+    font-size: 10px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+#login_btn,#signup_btn{
+    height: 35px;
+    width: 120px;
+    background-color:transparent;
+    color:white;
+    border:1px solid white;
+    border-radius: 5px;
+    outline: none;
+    position: absolute;
+    left: 75%;
+    top:65%;
+    transform: translate(-50%,-50%);
+    transition: all .5s;
+}
+#signup_btn{
+    left: 25%;
+}
+#login_btn:hover,#signup_btn:hover{
+    background-color:white;
+    color:#2d2d2d;
+    cursor: pointer;
+}
+#login_msg,#signup_msg{
+    font-family: arial;
+    font-size: 10px;
+    color:white;
+    position: absolute;
+    top:35%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+#signup_msg{
+    left: 25%;
+}
+    h3{
+        font-size: 150%;
+    }
+    P{
+        font-size: 100%;
+        margin: 2%;
+    }
+    h4{
+        font-size: 115%;
+    }
+    
+}
+footer.second img {
+    height: 41px;
+    width: 36px;
+    float: left;
+    display: inline-block;
+    padding: 5px;
+    margin: -3px 0px;
+}

@@ -1,0 +1,269 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tennant Creek Transport</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />	
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/animate.css" />
+  	<link rel="stylesheet" type="text/css" href="css/waypoints.css" />
+  	<script src="js/JQUERY%20Main.js" type="text/javascript"></script>
+  	<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+  	<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+  	<script src='js/waypoints.js' type="text/javascript"></script>
+  	<meta property="og:image" content="http://www.TennantCreekTransport.org/uploads/1/3/4/2/13420534/1263969_orig.jpg">
+  	<link rel="icon" href="img/favicon.ico">
+</head>
+<body>
+    <header>
+       <div id="header-inner">
+        <a href="#" id="logo"></a>
+        <nav>
+           <a href="#" id="menu-icon"></a>
+            <ul>
+                <li><a href="#home" class="current">Home</a></li>
+                <li><a href="#pub">Public Transport Information</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#news">News</a></li>
+                
+            </ul>
+        </nav>
+        </div>
+    </header>
+		<script src="js/jquery.bxslider.min.js"></script>
+       <div class="home" id="home">
+        <div class="slide-wrap">
+            <section class="slider">
+                <ul class="slider1">
+                    <li><img src="img/Bus.jpg"/></li>
+                    <li><img src="img/Air.jpg"/></li>
+                    <li><img src="img/Train.jpg"/></li>
+                </ul>
+            </section>
+        </div>
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+             $('a[href*="#"]:not([href="#"])').click(function(){
+            if(location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname)
+                {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if(target.length){
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1350);
+                        return false;
+                        
+                    }
+                }
+        });
+            $(document).ready(function(){
+    $("#signup_btn").click(function(){
+        $("#main").animate({left:"22.5%"},400); 
+        $("#main").animate({left:"30%"},500); 
+        $("#loginform").css("visibility","hidden");
+        $("#loginform").animate({left:"25%"},400);
+        
+        $("#signupform").animate({left:"17%"},400);
+        $("#signupform").animate({left:"30%"},500);
+        $("#signupform").css("visibility","visible");
+    }); 
+    
+    $("#login_btn").click(function(){
+        $("#main").animate({left:"77.5%"},400); 
+        $("#main").animate({left:"70%"},500);
+        $("#signupform").css("visibility","hidden");
+        $("#signupform").animate({left:"75%"},400);
+        
+        $("#loginform").animate({left:"83.5%"},400);
+        $("#loginform").animate({left:"70%"},500);
+        $("#loginform").css("visibility","visible");
+    });
+});
+
+		</script>
+   </div>
+    <div class="clearfix"></div>
+        <div id="inner-wrapper">
+         <div class="pub" id="pub">
+          <section class="staggered-animation-container">
+          <section class="os-animation" data-os-animation='fadeInLeftBig' data-os-animation-delay="1.5s">
+           <section class="one-third">
+            <div class="circle">
+                <a href="https://centrebushbus.com.au/bus-timetables/"><img src="img/b.png"/></a>
+            </div>
+            <h3>Bus</h3>
+               <p>We’ve been providing affordable, safe and quality bus services, tours and charters for 20 years.We service over 35 remote communities in Central Australia<a href="https://centrebushbus.com.au/bus-timetables/">Click here to find out more</a></p>
+            </section>
+            </section>
+            <section class="os-animation" data-os-animation='zoomInUp' data-os-animation-delay="1s">
+            <section class="one-third">
+            <div class="circle">
+                <a href="https://www.airnorth.com.au/plan-your-trip/destinations/tennant-creek"><img src="img/p.jpg"/></a>
+            </div>
+            <h3>Flights</h3>
+               <p>Airnorth first burst onto the aviation scene flying Cessna charter flights throughout the Territory, with regular passenger travel eventuating in the following years.<a href="https://www.airnorth.com.au/plan-your-trip/destinations/tennant-creek">Click here to find out more</a></p>
+            </section>
+            </section>
+            <section class='os-animation' data-os-animation='fadeInRightBig' data-os-animation-delay='2s'>
+            <section class="one-third">
+            <div class="circle">
+                <a href='https://www.greatsouthernrail.com.au/fares-and-timetables'><img src="img/t.png"/></a>
+            </div>
+            <h3>Train</h3>
+                <p>Regarded as one of the world’s greatest rail journeys, The Ghan delivers so much more than an extended train ride. It promises access to parts of Australia.<a href='https://www.greatsouthernrail.com.au/fares-and-timetables'>Click here to find out more</a></p>
+            </section>
+            </section>
+            </div>
+             <div class="clearfix"></div>
+               <div class="about" id="about">
+                <section class='os-animation' data-os-animation='fadeInLeftBig' data-os-animation-delay='1s'>
+                 <article>
+                     <img src="img/si.jpg" class="circle-image"/>
+                 </article>
+              </section>
+                <section class='os-animation' data-os-animation='bounceInRight' data-os-animation-delay='.3s'>
+                 <aside>
+                    
+                     <h3> About Us</h3><br>
+                     <ul class="tennant">
+                        <li><h4><a href="latest.html#first">First Steps</a></h4></li>
+                         <li><h4><a href="latest.html#where">Where we came from</a></h4></li>
+                         <li><h4><a href="latest.html#purp">Purpose of the group</a></h4></li>
+                         <li><h4><a href="latest.html#object">Object and Purpose of the tennant creek transport</a></h4></li>
+                     </ul>
+            </aside>
+              </section>
+              </div>
+            <div class="clearfix"></div>
+            <div class="news" id="news">
+             <section class='os-animation' data-os-animation='fadeInLeftBig' data-os-animation-delay='.3s'>
+
+                <section class="one-third">
+                    <h3>Door to Door minibus service starts in Tennant Creek</h3>
+                    <a href="service.html"#door><img src="img/d.jpg"/></a>
+                    <p>Tennant Creek Transport has announced the commencement of a door-to-door minibus service to start on the 20th of March.</p>
+                </section>
+              </section>
+            <section class='os-animation' data-os-animation='zoomInUp' data-os-animation-delay='.3s'>
+
+                <section class="one-third">
+                    <h3>Dam good service on Australia Day</h3>
+                    <a href="service.html#dam"><img src="img/da.jpg"/></a>
+                        <p>Tennant Creek Transport and Barkly Regional Council combined on Australia Day to put on a shuttlebus service to festivities out at Mary Ann Dam.</p></a>
+                </section>
+              </section>
+              <section class='os-animation' data-os-animation='fadeInRightBig' data-os-animation-delay='.3s'>
+
+                <section class="one-third">
+                    <h3>Tennant Creek Charter Service growing</h3>
+                    <a href="service.html#creek"><img src="img/se.jpg"/></a>
+                    <p>Tennant Creek Transport's charter service is growing, providing businesses and agencies in the region with another affordable transport option.</p>
+                </section>
+              </section>
+              </div>
+              <div><h1><a href="service.html">More Stories</a></h1></div>
+            </div>
+            
+    <div class="clearfix"></div>
+    <footer>
+        <div id="footer-inner">
+            <section class="one-third" id="footer-third">
+                <h3>Contact</h3>
+                <p class="footercontact">Tennant Creek Transport<br>
+                    <b class="phone">0497487789</b><br><br>
+                    Driver-0467335400<br>
+                    coordinator@tennantcreektransport.org<br></p>
+            </section>
+            <section class="one-third" id="footer-third">
+               <h3>social</h3>
+               <br>
+               <ul class="social">
+                  <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                   
+               </ul>
+                
+            </section>
+            <section class="one-third" id="footer-third-last">
+                <h3>Tennant Creek Transport</h3>
+                <br>
+                <a href="index.html"><img src="img/3827882.jpg"/></a>
+            </section>
+           <div class="clearfix"></div>
+           <section>
+               <div id="box">
+            <div id="main"></div>
+            
+            <div id="loginform">
+                <h1>LOGIN</h1>
+                <input type="email" placeholder="Email"/><br>
+                <input type="password" placeholder="Password"/><br>
+                <button>LOGIN</button>
+            </div>
+            
+            <div id="signupform">
+                <h1>SIGN UP</h1>
+                <input type="text" placeholder="Full Name"/><br>
+                <input type="email" placeholder="Email"/><br>
+                <input type="password" placeholder="Password"/><br>
+                <button>SIGN UP</button>
+            </div>
+            
+            <div id="login_msg">Have an account?</div>
+            <div id="signup_msg">Don't have an account?</div>
+            
+            <button id="login_btn">LOGIN</button>
+            <button id="signup_btn">SIGN UP</button>
+            
+            
+        </div>
+           </section>
+        </div>
+        
+    </footer>
+    <footer class="second">
+        <a href="https://nt.gov.au/"><img src="img/nt.jpg"/></a>
+        <a href="https://www.health.gov.au"><img src="img/ahac.jpg"/></a>
+        <a href="https://www.australianethical.com.au/"><img src="img/aus.jpg"/></a>
+        <a href="http://barklyarts.com.au/"><img src="img/bark.jpg"/></a>
+        <a href="https://www.barkly.nt.gov.au/"><img src="img/br.jpg"/></a>
+        <a href="https://www.bp.com/"><img src="img/bp.jpg"/></a>
+        <a href="https://ntcoss.org.au/"><img src="img/coss.jpg"/></a>
+        <a href="https://www.frrr.org.au/">"<img src="img/frr.jpg"/></a>
+        <a href="https://www.kellysranch.com.au/"><img src="img/kel.jpg"/></a>
+        <a href="https://www.redcross.org.au/australia"><img src="img/red.jpg"/></a>
+        
+    </footer>
+            </section>
+    
+</body>
+</html>
